@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+# Well Plate Layout Maker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I should have chosen a more intuitive name but ughh, I have bought the domain already.
 
-## Available Scripts
+### What is it?
 
-In the project directory, you can run:
+You know well plates? I have seen people printing layouts of them and the scribbling concentration values on them? Is that intuitive? Not at all. Is that a waste of paper? Yes. And then on top of that if you were to make a presentation of the well plates for example teaching students how the colors magically change when you add trypsin to a protein. I was there once. Hence this tool(?). It lets you do all of that.
 
-### `npm start`
+- Make Layouts on a computer, rather than scribbling
+- Add text and color to the wells
+- Save the layouts locally, for probably future edits. (I don't want to fund or make a backend for this)
+- Export the wells into an Excel sheet (CSV) to maybe analyse data.
+- Export the layout into a picture format or SVG (working on this) for a presentation maybe.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Contributing didgeridoo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This is made using React. I used Typescript, because I hate headaches and actually I wanted to learn Typescript. Using it for a project seemed more intuitive. If you want to contribute to the code, please feel free to make a Pull Request on the Github Repo. I probably would fix it soon enough. If you find issues, again make a pull request or email me. I'll probably take some time but feel free to follow-up. I forget sometime.
 
-### `npm test`
+Also if you would like to donate, please do here:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
