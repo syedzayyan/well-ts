@@ -1,7 +1,9 @@
 import github from "../assets/github.png"
-import about from "../assets/about.png"
+import About from "./About"
 
 export default function Navbar() {
+    
+
     return (
         <header>
             <main id="navbar-outer">
@@ -17,9 +19,7 @@ export default function Navbar() {
                     </a>                        
                     </li>
                     <li>
-                    <a className="nav-links" href="/#/about">
-                        <img title="About The Poject" alt = "About The Poject" src={about} height={40} width={40} />
-                    </a>
+                        <About />
                     </li>
                 </nav>
             </main>

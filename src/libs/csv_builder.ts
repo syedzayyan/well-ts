@@ -1,8 +1,11 @@
-export default function CSVBuilder(matrix: [], title: string) {
-/*     matrix.map((row, i) => {
+export default function CSVBuilder(matrix: any[][], title: string) {
+    let editMatrix = matrix
+    editMatrix.map((row, i) => {
         row.map((value, j) => {
-            matrix[i][j] = value.text
+            editMatrix[i][j] = value.text
+            return 0
         })
+        return 0
     })
     if (title === ""){
         title = "Untitled"
@@ -17,5 +20,5 @@ export default function CSVBuilder(matrix: [], title: string) {
     hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
     hiddenElement.target = '_blank';
     hiddenElement.download = title + '.csv';
-    hiddenElement.click(); */
+    hiddenElement.click();
 }
