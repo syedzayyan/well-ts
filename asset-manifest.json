@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.bdcf532f.css",
-    "main.js": "/static/js/main.04687046.js",
-    "static/media/github.png": "/static/media/github.7d8cd8f70f7e24735f7f.png",
-    "static/media/about.png": "/static/media/about.27f6603a10af0d04e94d.png",
-    "index.html": "/index.html",
-    "main.bdcf532f.css.map": "/static/css/main.bdcf532f.css.map",
-    "main.04687046.js.map": "/static/js/main.04687046.js.map"
+    "main.css": "/syedzayyan.github.io/well-ts/static/css/main.bdcf532f.css",
+    "main.js": "/syedzayyan.github.io/well-ts/static/js/main.f17dee75.js",
+    "static/media/github.png": "/syedzayyan.github.io/well-ts/static/media/github.7d8cd8f70f7e24735f7f.png",
+    "static/media/about.png": "/syedzayyan.github.io/well-ts/static/media/about.27f6603a10af0d04e94d.png",
+    "index.html": "/syedzayyan.github.io/well-ts/index.html",
+    "main.bdcf532f.css.map": "/syedzayyan.github.io/well-ts/static/css/main.bdcf532f.css.map",
+    "main.f17dee75.js.map": "/syedzayyan.github.io/well-ts/static/js/main.f17dee75.js.map"
   },
   "entrypoints": [
     "static/css/main.bdcf532f.css",
-    "static/js/main.04687046.js"
+    "static/js/main.f17dee75.js"
   ]
 }
