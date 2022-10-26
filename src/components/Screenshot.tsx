@@ -19,7 +19,7 @@ const Screenshot: React.FC<{ refProp: React.RefObject<HTMLDivElement>, title_str
           .catch((err) => {
             console.log(err)
           })
-      }, [refProp])
+      }, [refProp, title_string])
 
       const svgGrabber = useCallback(() => {
         if (refProp.current === null) {
@@ -36,7 +36,7 @@ const Screenshot: React.FC<{ refProp: React.RefObject<HTMLDivElement>, title_str
           .catch((err) => {
             console.log(err)
           })
-      }, [refProp])
+      }, [refProp, title_string])
     return(
         <>
          <button className='btn' onClick={pngGrabber}>Screenshot to PNG</button>&nbsp;

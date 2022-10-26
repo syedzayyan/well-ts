@@ -21,9 +21,16 @@ export default function About() {
                     <li>Export the wells into an Excel sheet (CSV) to maybe analyse data.</li>
                     <li>Export the layout into a picture format or SVG/PNG for a presentation maybe.</li>
                 </ul>
+                <h3>Things to be done for v2</h3>
+                <ul>
+                    <li>Make it suitable for iPad</li>
+                    <li>Mobile support is not really a thing but may as well</li>
+                    <li>Preferably a dark mode and support to change background color</li>
+                </ul>
+                If you think of anything else. May as well open a PR.
                 <h3>Contributing didgeridoo</h3>
                 <p>This is made using React. I used Typescript, because I hate headaches and actually I wanted to learn Typescript. Using it for a project seemed more intuitive. If you want to contribute to the code, please feel free to make a Pull Request on the Github Repo. I probably would fix it soon enough. If you find issues, again make a pull request or email me. I&#39;ll probably take some time but feel free to follow-up. I forget sometime.</p>
-                <p>Also if you would like to donate, please do here:</p>
+                <p>Also if you would like to donate, please do <a href = "https://www.buymeacoffee.com/masudzayyan">here</a></p>
             </Modal>}
         </>
     )

@@ -1,8 +1,9 @@
 import github from "../assets/github.png"
 import About from "./About"
+import BuyMeACoffee from "../assets/buymeacoffee.png"
 
 export default function Navbar() {
-    
+
 
     return (
         <header>
@@ -14,12 +15,22 @@ export default function Navbar() {
                 </nav>
                 <nav>
                     <li>
-                    <a className="nav-links" href="https://github.com/syedzayyan">
-                        <img title="Github Repo Link" alt = "link to the repo" src={github} height={40} width={40} />
-                    </a>                        
+                        <a target="_blank" rel="noopener noreferrer" className="nav-links" href="https://github.com/syedzayyan/well-ts">
+                            <img height={40} width={40} title="Github Repo Link" alt="link to the repo" src={github} />
+                        </a>
                     </li>
                     <li>
                         <About />
+                    </li>
+                    <li>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/masudzayyan">
+                            <img
+                                className="btn"
+                                height={40}
+                                width={150}
+                                src={BuyMeACoffee}
+                                alt="Buy Me A Coffee"></img>
+                        </a>
                     </li>
                 </nav>
             </main>

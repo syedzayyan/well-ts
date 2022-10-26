@@ -18,3 +18,12 @@ This is made using React. I used Typescript, because I hate headaches and actual
 
 Also if you would like to donate, please do here:
 
+<a target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/masudzayyan">
+    <img
+        className="btn"
+        height="40"
+        width="150"
+        src="./src/assets/buymeacoffee.png"
+        alt="Buy Me A Coffee"></img>
+</a>
+
